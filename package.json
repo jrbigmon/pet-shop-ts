@@ -16,6 +16,7 @@
   "dependencies": {
     "@nestjs/common": "^9.1.2",
     "@nestjs/core": "^9.1.2",
+    "dotenv": "^16.0.3",
     "mysql2": "^2.3.3",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.5.7",
