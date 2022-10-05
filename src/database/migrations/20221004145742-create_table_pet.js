@@ -5,9 +5,8 @@ module.exports = {
   async up(queryInterface, Sequelize) {
     await queryInterface.createTable('pets', {
       id: {
-        type: Sequelize.DataTypes.INTEGER(10),
+        type: Sequelize.DataTypes.STRING(500),
         primaryKey: true,
-        autoIncrement: true,
         allowNull: false
       },
       name: {
