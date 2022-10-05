@@ -34,6 +34,18 @@ module.exports = {
           key: 'id'
         },
         allowNull: false
+      },
+      created_at: {
+        type: Sequelize.DataTypes.DATE,
+        allowNull: true
+      },
+      updated_at: {
+        type: Sequelize.DataTypes.DATE,
+        allowNull: true
+      },
+      deleted_at: {
+        type: Sequelize.DataTypes.DATE,
+        allowNull: true
       }
     });
   },
