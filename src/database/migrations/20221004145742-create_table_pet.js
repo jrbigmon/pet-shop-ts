@@ -26,7 +26,7 @@ module.exports = {
         allowNull: false
       },
       breed_id: {
-        type: Sequelize.DataTypes.INTEGER(10),
+        type: Sequelize.DataTypes.STRING(500),
         references: {
           model: {
             tableName: 'breeds'
