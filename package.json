@@ -22,7 +22,7 @@
     "mysql2": "^2.3.3",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.5.7",
-    "sequelize": "^6.23.2",
+    "sequelize": "^6.28.2",
     "sequelize-cli": "^6.5.1"
   }
 }
